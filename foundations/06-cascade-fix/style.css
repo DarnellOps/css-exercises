@@ -11,12 +11,20 @@
   font-size: 12px;
 }
 
+#confirm-button {
+  background-color: rgb(0, 255, 0);
+}
+
 .confirm {
   background: green;
   color: white;
   font-size: 20px;
   font-weight: bold;
 } 
+
+#cancel-button {
+  font-weight: bold;
+}
 
 .button {
   background-color: #ffc0cb;
