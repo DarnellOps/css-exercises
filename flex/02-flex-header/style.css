@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
   
 }
 
@@ -17,18 +18,18 @@
   display: flex;
 }
 
-ul.left-links {
-  display: flex;
-  align-items: flex-start;
+left-links {
+  align-items: stretch;
 }
 
 .right-links {
-  align-items: flex-end;
+  align-items: flex;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
 }
 
 a {
