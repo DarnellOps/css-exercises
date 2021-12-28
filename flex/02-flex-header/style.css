@@ -15,21 +15,29 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: auto;
   display: flex;
 }
 
 left-links {
-  align-items: stretch;
+  margin: 10px;
+  gap: 10px;
 }
 
 .right-links {
-  align-items: flex;
+  margin: 10px;
+}
+
+li {
+  padding: 10px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
+  align-items: center;
+  padding-left: 10px;
 }
 
 a {
