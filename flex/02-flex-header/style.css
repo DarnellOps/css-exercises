@@ -2,6 +2,8 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  
 }
 
 .logo {
