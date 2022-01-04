@@ -18,6 +18,17 @@ body {
   padding: 8px;
 }
 
+.container-one {
+  display: flex;
+  gap: 16px;
+}
+
+.container-two {
+  display: flex;
+  gap: 16px;
+}
+
+
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
@@ -53,10 +64,5 @@ ul {
   display: flex;
 }
 
-.container-one {
-  display: flex;
-}
 
-.container-two {
-  display: flex;
-}
+
