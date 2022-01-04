@@ -22,7 +22,6 @@ img {
 
 .imgContainer{
   display: flex;
-  flex-direction: row;
   justify-content: center;
   gap: 52px;
   flex-wrap: wrap
