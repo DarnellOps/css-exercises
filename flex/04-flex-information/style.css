@@ -15,7 +15,12 @@ img {
   margin-bottom: 32px;
 }
 
-
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 .container {
   display: flex;
