@@ -20,7 +20,6 @@ body {
 
 .container-one {
   display: flex;
-  gap: 16px;
 }
 
 .container-two {
