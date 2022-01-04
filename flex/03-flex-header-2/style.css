@@ -18,13 +18,10 @@ body {
   padding: 8px;
 }
 
-
-
 .container-two {
   display: flex;
   gap: 16px;
 }
-
 
 .profile-image {
   background: rebeccapurple;
@@ -35,10 +32,7 @@ body {
   
 }
 
-.container-one {
-  display: flex;
-  gap: 16px;
-}
+
 
 .logo {
   color: rebeccapurple;
@@ -69,5 +63,14 @@ ul {
   align-items: center;
 }
 
+.container-one {
+  display: flex;
+  gap: 16px;
+}
+
+.links {
+  gap: 16px;
+}
+ 
 
 
