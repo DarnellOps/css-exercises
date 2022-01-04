@@ -25,6 +25,7 @@ body {
 
 .container-two {
   display: flex;
+  gap: 16px;
 }
 
 
