@@ -3,7 +3,7 @@ body {
 }
 
 img {
-  width: 200px;
+  width: 100px;
   height: 100px;
 }
 
@@ -18,12 +18,12 @@ img {
 .container {
   display: flex;
   justify-content: center;
+  gap: 52px;
 }
 
 .imgContainer{
   display: flex;
   justify-content: center;
-  gap: 52px;
   flex-wrap: wrap;
 }
 
