@@ -15,19 +15,13 @@ img {
   margin-bottom: 32px;
 }
 
-.text {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .container {
   display: flex;
   justify-content: center;
   gap: 52px;
 }
 
-.imgContainer{
+.imgContainer, .text{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
