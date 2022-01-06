@@ -34,7 +34,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-self: flex-start;
+  align-self: flex-end;
 }
 
 .close-button {
@@ -47,8 +47,7 @@ body {
   width: 24px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  align-self: flex-end;
+  justify-content: center ;
 }
 
 button {
@@ -68,7 +67,18 @@ button.cancel {
   color: royalblue;
 }
 
-.header, .text, .buttons{
+.text, .buttons{
   display: flex;
   margin: auto;
 }
+.headerClose {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header {
+  display: flex;
+  flex-grow:;
+}
+
+
