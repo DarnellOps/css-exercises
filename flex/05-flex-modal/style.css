@@ -20,7 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 10px;
+  padding: 20px;
 }
 
 .icon {
@@ -35,7 +35,6 @@ body {
   align-items: center;
   justify-content: center;
   align-self: flex-start;
-  flex-direction: column;
 }
 
 .close-button {
@@ -69,17 +68,7 @@ button.cancel {
   color: royalblue;
 }
 
-.header {
-  padding-top: 0;
-}
-
-.headerContainer, .textContainer, .twoButtons{
+.header, .text, .buttons{
   display: flex;
-  margin-left: 40px;
-  align-items: center;
-}
-
-.closeContainer {
-  display: flex;
-  flex-direction: column;
+  margin: auto;
 }
