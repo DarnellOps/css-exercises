@@ -67,6 +67,5 @@ button.cancel {
 }
 
 div.headerContainer, .text, button {
-  margin-left: 45px;
-  display: flexbox;
+  margin-left: 20px;
 }
