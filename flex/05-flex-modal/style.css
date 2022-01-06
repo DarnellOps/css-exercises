@@ -20,7 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 40px;
+  padding: 10px;
 }
 
 .icon {
@@ -34,6 +34,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: flex-start;
+  flex-direction: column;
 }
 
 .close-button {
@@ -71,8 +73,11 @@ button.cancel {
   padding-top: 0;
 }
 
-div.headerContainer, .text, button {
+.headerContainer, .textContainer, .twoButtons{
+  display: flex;
   margin-left: 40px;
+  align-items: center;
+
   
 }
 
