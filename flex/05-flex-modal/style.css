@@ -47,6 +47,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: flex-end;
 }
 
 button {
@@ -66,6 +67,17 @@ button.cancel {
   color: royalblue;
 }
 
+.header {
+  padding-top: 0;
+}
+
 div.headerContainer, .text, button {
-  margin-left: 20px;
+  margin-left: 40px;
+  
+}
+
+.closeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
