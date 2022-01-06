@@ -79,5 +79,4 @@ div.headerContainer, .text, button {
 .closeContainer {
   display: flex;
   flex-direction: column;
-  justify-content: start;
 }
