@@ -18,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -42,6 +43,15 @@ input {
   gap: 10px;
 }
 
+.imgContainer, .inputContainer, .buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  margin:auto;
+}
+
 a:link {
   text-decoration: none;
   color: gray;
@@ -52,3 +62,9 @@ a:link {
   justify-content: space-between;
   background-color: #eeeeee;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
